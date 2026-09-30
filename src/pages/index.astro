@@ -222,15 +222,17 @@ const icons: Record<string, string> = {
     align-items: center;
     justify-content: center;
     line-height: 0;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid var(--border);
-    transition: transform 0.2s ease, background 0.2s ease;
+    background: #2a2a2a;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
   }
 
   .social-row__link:hover,
   .social-row__link:focus-visible {
     transform: translateY(-2px) scale(1.05);
-    background: rgba(255, 255, 255, 0.16);
+    background: #3a3a3a;
+    border-color: rgba(255, 255, 255, 0.35);
     outline: none;
   }
 
@@ -287,9 +289,9 @@ const icons: Record<string, string> = {
     min-height: 3.55rem;
     padding: 0.95rem 1.1rem;
     border-radius: var(--radius);
-    background: var(--surface-soft);
-    border: 1px solid var(--border);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    background: #252525;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     transition:
       transform 0.2s ease,
       background 0.2s ease,
@@ -313,7 +315,7 @@ const icons: Record<string, string> = {
   }
 
   .cta--whatsapp {
-    background: linear-gradient(180deg, #2a2a2a, #1d1d1d);
+    background: #1f1f1f;
   }
 
   .cta--whatsapp:hover,
@@ -337,7 +339,7 @@ const icons: Record<string, string> = {
   }
 
   .card--location {
-    background: var(--surface);
+    background: #1a1a1a;
   }
 
   .card__badge {
@@ -346,7 +348,7 @@ const icons: Record<string, string> = {
     border-radius: 14px;
     display: grid;
     place-items: center;
-    background: rgba(255, 255, 255, 0.08);
+    background: #333333;
     color: #f3c16b;
     flex: 0 0 auto;
   }

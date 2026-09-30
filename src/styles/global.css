@@ -1,8 +1,8 @@
 :root {
   --bg: #101010;
   --bg-deep: #000000;
-  --surface: rgba(0, 0, 0, 0.88);
-  --surface-soft: rgba(37, 37, 37, 0.92);
+  --surface: #111111;
+  --surface-soft: #252525;
   --text: #ffffff;
   --text-muted: rgba(255, 255, 255, 0.78);
   --border: rgba(255, 255, 255, 0.14);
