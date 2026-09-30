@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "Black Diamond Barbershop",
+    "description": "Bienvenido al sitio de Black Diamond Barbershop Saltillo",
+    "canonical": "https://blackdiamondslw.com"
+  },
+  "brand": {
+    "nickname": "BLACK DIAMOND",
+    "bio": "Barbershop",
+    "location": "SLW",
+    "profileImage": "/assets/profile.png",
+    "favicon": "/favicon.webp"
+  },
+  "background": {
+    "video": "/assets/background.mp4",
+    "fallbackImage": "/assets/background-fallback.jpg"
+  },
+  "whatsapp": {
+    "url": "https://wa.me/5218449127358",
+    "label": "Agenda tu Cita"
+  },
+  "socials": [
+    {
+      "platform": "instagram",
+      "label": "Instagram",
+      "url": "https://instagram.com/black_diamond_slw"
+    },
+    {
+      "platform": "tiktok",
+      "label": "TikTok",
+      "url": "https://tiktok.com/@black_diamond_slw"
+    },
+    {
+      "platform": "facebook",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BlackDiamondBarberShopSaltillo/"
+    },
+    {
+      "platform": "whatsapp",
+      "label": "WhatsApp",
+      "url": "https://wa.me/5218449127358"
+    }
+  ],
+  "socialLinks": [
+    {
+      "title": "Siguenos en Instagram",
+      "url": "https://www.instagram.com/black_diamond_slw",
+      "platform": "instagram"
+    },
+    {
+      "title": "Siguenos en TikTok",
+      "url": "https://www.tiktok.com/@black_diamond_slw",
+      "platform": "tiktok"
+    },
+    {
+      "title": "Siguenos en Facebook",
+      "url": "https://www.facebook.com/BlackDiamondBarberShopSaltillo/",
+      "platform": "facebook"
+    }
+  ],
+  "locations": {
+    "headline": "SUCURSALES",
+    "items": [
+      {
+        "title": "TOREO",
+        "url": "https://maps.app.goo.gl/1tRSf1LWouMEPakU8"
+      }
+    ]
+  },
+  "services": {
+    "headline": "Servicios",
+    "image": "/assets/servicios.png",
+    "alt": "Servicios Black Diamond Barbershop"
+  }
+}
